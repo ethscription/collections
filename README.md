@@ -55,7 +55,7 @@ It must be in png format with less than 512 x 512 px size.
       "name": "",                 # inscription name,
       "status": "",               # (optional) inscription theme
       "rank":                     # (optional) inscription rarity rank
-      "high_res_img_url":         # (optional) high resolution image if you have hosted offchain
+      "high_res_img_url":         # (optional) link to a high resolution image if you have any
       "attributes": [             # (optional) attributes associated with this inscription
         {
           "trait_type": "",        # trait type
@@ -104,7 +104,6 @@ Your inscriptions.json file will look like this:
         }
       ]
     },
-    "number": "0"
   },
   {
     "id": "0xbacfbb7b29431044639f457d9368a4a4e2d560369902c02fdd3d72ec4eac63d0",
@@ -117,7 +116,6 @@ Your inscriptions.json file will look like this:
         }
       ]
     },
-    "number": "1"
   },
  ...
 ]
